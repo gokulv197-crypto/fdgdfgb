@@ -1,9 +1,13 @@
+<p align="center">
+  <img src="">
+</p>
+
 This URL shortener is a high-performance backend service designed to convert long URLs into compact, shareable short links while ensuring fast redirection, scalability, and operational reliability.
 
 ## Built With
-- __FastAPI & asyncio__: High-performance asynchronous API gateway ecosystem maximizing concurrent request throughput
-- __Python__: Core execution language utilizing type validation and secure cryptographic standard libraries
-- __Redis__: High-speed in-memory data store running decoupled, multi-instance transaction pools
+- __FastAPI & asyncio__ - High-performance asynchronous API gateway ecosystem maximizing concurrent request throughput
+- __Python__ - Core execution language utilizing type validation and secure cryptographic standard libraries
+- __Redis__ - High-speed in-memory data store running decoupled, multi-instance transaction pools
 - __MySQL__ – Relational database engine configured with connection recycling and pre-ping validation for high-availability persistent storage
 - __SQLAlchemy__ – Database abstraction layer driving atomic transactions and optimized session lifecycles
 - __Docker__ – Containerization platform ensuring isolated microservice environments and consistent production deployments
